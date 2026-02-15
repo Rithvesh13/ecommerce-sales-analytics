@@ -39,10 +39,17 @@ Raw Data → SQLite Database → SQL Analysis → Business Insights → Executiv
 ```
 Ecommerce-Sales-Analysis/
 │
-├── sql/                    # Analytical SQL queries
-├── dashboard/              # Excel dashboard
-├── dashboard_preview.png   # Dashboard screenshot
+├── sql/
+│   └── sales_analysis.sql       
+│
+├── dashboard/
+│   └── ecommerce_dashboard.xlsx   
+│
+├── images/
+│   └── dashboard_preview.png     
+│
 └── README.md
+
 ```
 
 
@@ -88,7 +95,7 @@ Ecommerce-Sales-Analysis/
 
 ## 📊 Dashboard Preview
 
-![Dashboard](dashboard_preview.png)
+![Dashboard](images/dashboard_preview.png)
 
 ---
 

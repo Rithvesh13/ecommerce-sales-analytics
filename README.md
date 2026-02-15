@@ -122,9 +122,32 @@ Ecommerce-Sales-Analysis/
 
 ## 📦 Data Availability
 
-The original raw dataset and SQLite database file are not included in this repository due to GitHub’s 25MB file size limitation.
+The original raw dataset and generated SQLite database file are not included in this repository due to GitHub file size limitations.
 
-The SQL scripts and dashboard can be executed using any structured e-commerce dataset with a similar schema.
+This repository contains:
+
+- SQL scripts
+- Python analysis script
+- Processed cohort output tables
+- Visualization outputs
+
+To fully reproduce the end-to-end pipeline (data cleaning, cohort modeling, retention analysis, and LTV calculation), the original dataset and database file must be downloaded separately.
+
+---
+
+## 📎 Full Dataset & Database Download
+
+Due to GitHub’s file size restrictions, the complete raw dataset and SQLite database file are hosted externally.
+
+🔗 Download full project files here:  
+https://drive.google.com/drive/folders/1ErLSVmlGwj6E0NThRxg2HEKURC5zoBtb?usp=sharing
+
+After downloading:
+
+1. Place the raw dataset inside the `data/` folder.
+2. Place the SQLite database file in the project root directory (or as required).
+3. Execute the SQL script located in the `sql/` directory.
+4. Run the Python script to generate visualizations.
 
 ---
 
